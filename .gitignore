@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+outputs/Retail_Inventory_Final.csv
+outputs/Retail_Inventory_Final.xlsx
