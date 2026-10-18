@@ -47,7 +47,7 @@ A Python analysis of two years of daily retail data that measures sales performa
   <img src="charts/14_replenishment_status.png" width="49%">
 </p>
 
-All 16 charts are in the [`charts/`](charts) folder, and the full plan is in [`outputs/Replenishment_Plan.csv`](outputs/Replenishment_Plan.csv).
+All 16 charts are in the [`charts/`](charts) folder, the full plan is in [`outputs/Replenishment_Plan.csv`](outputs/Replenishment_Plan.csv), and the Excel report with every KPI and analysis sheet is in [`reports/Retail_Inventory_Report.xlsx`](reports/Retail_Inventory_Report.xlsx).
 
 ## ▶️ How to Run
 ```bash
@@ -65,7 +65,8 @@ The script reads `data/retail_store_inventory.csv` and writes the charts to `cha
 ├── outputs/
 │   └── Replenishment_Plan.csv     # Replenishment plan per store-product
 └── reports/
-    └── Retail_Inventory_Analysis_Report.pdf  # Management summary
+    ├── Retail_Inventory_Analysis_Report.pdf  # Management summary
+    └── Retail_Inventory_Report.xlsx          # Excel report: KPIs, insights, ABC, correlation, replenishment plan
 ```
 
 ## 👤 Author
